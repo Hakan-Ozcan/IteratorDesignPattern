@@ -1,0 +1,10 @@
+﻿Iterator tasarım deseni, bir koleksiyonun (liste, dizi, ağaç yapısı vb.) elemanlarına sırayla erişim sağlamak için kullanılan bir davranışsal tasarım desenidir.
+Bu desen, koleksiyonun iç yapısını gizleyerek ve döngü yapısını dışarı taşıyarak elemanlara ulaşmayı kolaylaştırır.
+Böylece, koleksiyonun iç yapısıyla doğrudan etkileşime gerek kalmadan, elemanlara erişim ve işlemler gerçekleştirilebilir.
+
+Iterator deseni, genellikle "foreach" döngüsü gibi yapılar için temel altyapı sağlar ve koleksiyonların iç yapısını değiştirmediği sürece, 
+döngüyü etkilemeden yeni elemanlar eklenmesine ve çıkarılmasına izin verir.
+Bu örnekte, Student sınıfı öğrenci bilgilerini temsil ederken, StudentCollection öğrenci nesnelerinin bulunduğu koleksiyonu temsil eder.
+StudentIterator sınıfı, koleksiyonda gezinmek için kullanılacak olan Iterator'u uygulayan sınıftır. 
+Programda, öğrenci koleksiyonunda gezinmek için Iterator deseni kullanılmıştır.
+foreach döngüsü yerine, koleksiyonun iç yapısını gizleyen ve gezinmeyi sağlayan iterator kullanılarak elemanlara erişim sağlanmıştır.
